@@ -1,0 +1,29 @@
+.section-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-family: OpenSans;
+  font-weight: 700;
+  color: #2c2e37;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 81px;
+    height: 7px;
+    background: url("../img/decor/waves.png") center center / cover;
+  }
+
+  &_small {
+    font-size: 20px;
+    line-height: 2.1365;
+  }
+
+  &_big {
+    font-size: 30px;
+    line-height: 1.42;
+  }
+}

@@ -1,0 +1,66 @@
+.about-us {
+  height: 667px;
+  background: url("../img/bg/about-us.jpg") center center / cover;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+
+  &__desc {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #949494;
+  }
+
+  &__right {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 682px;
+    height: 100%;
+  }
+
+  &__big-photo {
+    position: absolute;
+    left: 90px;
+    top: -36px;
+  }
+
+  &__big-image {
+    width: 806px;
+    height: 570px;
+  }
+
+  &__small-photo {
+    margin-bottom: 40px;
+    z-index: 2;
+  }
+
+  &__small-image {
+    width: 351px;
+    height: 351px;
+  }
+}
+
+.btn_about-us {
+  width: 135px;
+  padding: 0 25px;
+  font-size: 12px;
+  line-height: 3.56;
+  color: #fff;
+  background: #36aeea;
+
+  &:hover {
+    background: #56c7ff;
+  }
+}
