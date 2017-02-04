@@ -1,5 +1,4 @@
-body {
-  margin: 0;
-}
-
-@import 'common/**.scss';
+@import "layout/**.scss";
+@import "components/**.scss";
+@import "parts/**.scss";
+@import "sections/**.scss";

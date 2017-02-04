@@ -1,0 +1,26 @@
+.nav {
+
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__item {
+    margin-right: 24px;
+  }
+
+  &__link {
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 3.67;
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #9daeb6;
+    text-transform: uppercase;
+
+    &:hover {
+      color: darken(#9daeb6, 25%);
+      border-bottom: 2px solid #36aeea;
+    }
+  }
+}

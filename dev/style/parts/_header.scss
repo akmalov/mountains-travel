@@ -1,0 +1,42 @@
+.header {
+  height: 88px;
+  padding-top: 22px;
+  margin-bottom: 134px;
+  background: rgba(255, 255, 255, 0.2);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.logo {
+  font-family: Bringin;
+  font-size: 29px;
+  line-height: 1.52;
+  color: #36aeea;
+  margin-right: 60px;
+
+  &__span {
+    color: #95a5ad;
+  }
+}
+
+.btn_call {
+  padding: 12px 45px;
+  border: 3px solid #36aeea;
+  color: #36aeea;
+  font-size: 12px;
+  line-height: 3.67;
+
+  &:hover {
+    color: #56c7ff;
+    border-color: #56c7ff;
+  }
+}
