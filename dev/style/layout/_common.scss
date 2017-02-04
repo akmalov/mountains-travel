@@ -11,7 +11,6 @@
     content: '';
     position: absolute;
     top: -35px;
-    left: 0;
     width: 81px;
     height: 7px;
     background: url("../img/decor/waves.png") center center / cover;
@@ -20,10 +19,20 @@
   &_small {
     font-size: 20px;
     line-height: 2.1365;
+
+    &:before {
+      left: 0;
+    }
   }
 
   &_big {
+    margin-bottom: 70px;
     font-size: 30px;
     line-height: 1.42;
+    text-align: center;
+
+    &:before {
+      left: 47%;
+    }
   }
 }

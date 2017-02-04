@@ -1,0 +1,132 @@
+.journal {
+  height: 1065px;
+
+  .container {
+    padding-top: 105px;
+  }
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 760px;
+  box-shadow: 0 0 21px 0 rgba(6, 6, 6, 0.13);
+  font-family: OpenSans;
+  text-align: center;
+
+  &__item {
+    position: relative;
+    width: 380px;
+    height: 380px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      border: 10px solid transparent;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      background-image: url(../img/icons/journal.png);
+      background-repeat: no-repeat;
+    }
+
+    &_love {
+
+      &:before {
+        top: 51px;
+        right: 0;
+        border-right: 10px solid #fff;
+      }
+
+      &:after {
+        top: 150px;
+        left: 150px;
+        width: 81px;
+        height: 81px;
+        background-position: -224px -20px;
+      }
+    }
+
+    &_water {
+
+      &:before {
+        bottom: 0;
+        left: 51px;
+        border-bottom: 10px solid #fff;
+      }
+
+      &:after {
+        top: 154px;
+        left: 160px;
+        width: 59px;
+        height: 74px;
+        background-position: -20px -20px;
+      }
+    }
+
+    &_tree {
+
+      &:before {
+        top: 51px;
+        left: 0;
+        border-left: 10px solid #fff;
+      }
+
+      &:after {
+        top: 158px;
+        left: 157px;
+        width: 65px;
+        height: 65px;
+        background-position: -119px -20px;
+      }
+    }
+
+    &_text-block {
+      padding: 50px 30px;
+    }
+  }
+
+  &__image {
+    width: 380px;
+    height: 380px;
+  }
+
+  &__theme {
+    margin-bottom: 52px;
+    font-size: 11px;
+    line-height: 1.14px;
+    font-weight: 700;
+    color: #16b5ef;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+
+  &__desc {
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 1.64;
+    font-weight: 400;
+    color: #777777;
+  }
+
+  &__page {
+    font-family: "Times New Roman";
+    font-size: 14px;
+    line-height: 1.21;
+    color: #212121;
+    font-style: italic;
+  }
+}
