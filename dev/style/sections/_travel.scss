@@ -1,0 +1,101 @@
+.travel {
+  height: 1020px;
+  background: url('../img/bg/travel.png') center center / cover;
+
+  .container {
+    padding-top: 30px;
+  }
+}
+
+.mountains {
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 382px;
+    margin-right: 35px;
+    border-radius: 3px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &_carpathian {
+      background: url('../img/content/carpathian.jpg') center center / cover;
+    }
+
+    &_alps {
+      background: url('../img/content/alps.jpg') center center / cover;
+    }
+
+    &_pyrenees {
+      background: url('../img/content/pyrenees.jpg') center center / cover;
+    }
+
+    &_rocky {
+      background: url('../img/content/rocky.jpg') center center / cover;
+    }
+
+    &_kavkaz {
+      background: url('../img/content/kavkaz.jpg') center center / cover;
+    }
+  }
+
+  &__stars {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding-left: 10px;
+
+    &-image {
+      display: block;
+    }
+  }
+
+  &__text {
+    margin-top: 50px;
+    padding: 0 10px 10px 20px;
+    font-family: OpenSans;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  &__name {
+    font-size: 28px;
+    line-height: 2.25;
+  }
+
+  &__desc {
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    padding: 0 10px 0 20px;
+    font-family: OpenSans;
+    color: #fff;
+
+    &-old {
+      font-size: 18px;
+      line-height: 1.22;
+      font-weight: 400;
+      text-decoration: line-through;
+    }
+
+    &-current {
+      font-size: 26px;
+      line-height: 0.85;
+    }
+  }
+}
+
+.section-title_mountains {
+  margin-bottom: 90px;
+}
