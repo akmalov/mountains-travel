@@ -1,0 +1,55 @@
+.gallery {
+  height: 942px;
+  background: #fff;
+
+  .container {
+    padding-top: 100px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 29px;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  &__image {
+    display: block;
+    margin-bottom: 30px;
+
+    &_1 {
+      width: 263px;
+      height: 343px;
+    }
+
+    &_2 {
+      width: 361px;
+      height: 243px;
+    }
+
+    &_3 {
+      width: 457px;
+      height: 343px;
+    }
+
+    &_4 {
+      width: 263px;
+      height: 281px;
+    }
+
+    &_5 {
+      width: 361px;
+      height: 381px;
+    }
+
+    &_6 {
+      width: 455px;
+      height: 281px;
+    }
+  }
+}
