@@ -1,0 +1,26 @@
+section.reviews
+    .section-title.section-title_big.section-title_reviews Our clients say
+    .reviews__content
+        .container
+            .reviews__main
+                ul.reviews__list
+                    li.reviews__item
+                        .reviews__review Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quas nostrud exercitaion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                        .reviews__sign
+                            img.reviews__photo(src="img/content/pavliv-yaroslav.png")
+                            .reviews__name Pavliv Yaroslav
+                            .reviews__work Web designer
+                    li.reviews__item
+                        .reviews__review Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quas nostrud exercitaion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                        .reviews__sign
+                            img.reviews__photo(src="img/content/john-scott.png")
+                            .reviews__name John Scott
+                            .reviews__work The Fringe
+                form.contacts
+                    .contacts__title Contacts
+                    .contacts__desc Sign up for our newsletter to receive updates
+                    input.contacts__text-input.contacts__name(name="name" placeholder="Name")
+                    input.contacts__text-input.contacts__phone(name="phone" placeholder="Phone")
+                    input.contacts__text-input.contacts__name(name="email" placeholder="E-mail")
+                    input.btn.btn_order.contacts__submit(type="submit" value="Send")
+            include ../parts/_footer
