@@ -1,5 +1,5 @@
 .header {
-  height: 88px;
+  min-height: 88px;
   padding-top: 22px;
   margin-bottom: 134px;
   background: rgba(255, 255, 255, 0.2);
@@ -17,11 +17,13 @@
 }
 
 .logo {
+  max-width: 165px;
+  margin-right: 60px;
   font-family: Bringin;
   font-size: 29px;
   line-height: 1.52;
   color: #36aeea;
-  margin-right: 60px;
+  overflow: hidden;
 
   &__span {
     color: #95a5ad;

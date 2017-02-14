@@ -1,13 +1,14 @@
 .gallery {
-  height: 942px;
+  min-height: 942px;
   background: #fff;
 
   .container {
-    padding-top: 100px;
+    padding: 100px 0 50px;
   }
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__item {
